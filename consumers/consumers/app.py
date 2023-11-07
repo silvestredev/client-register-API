@@ -39,7 +39,7 @@ def add_user():
     
     response = {
         "statusCode": 200,
-        "body": f"Usuário '{requests_params.name}' cadastrado com sucesso!"
+        "body": f"Usuário '{requests_params}' cadastrado com sucesso!"
     }
     
     return response
@@ -51,7 +51,7 @@ def update_user():
     
     response = {
         "statusCode": 200,
-        "body": f"Dados do usuário '{requests_params.name}' atualizados com sucesso!"
+        "body": f"Dados do usuário '{requests_params}' atualizados com sucesso!"
     }
     
     return response
@@ -63,7 +63,7 @@ def delete_user():
     
     response = {
         "statusCode": 200,
-        "body": f"Usuário '{requests_params.name}' deletado com sucesso!"
+        "body": f"Usuário '{requests_params}' deletado com sucesso!"
     }
     
     return response
@@ -88,7 +88,7 @@ def add_company():
     
     response = {
         "statusCode": 200,
-        "body": f"Empresa '{requests_params.name}' cadastrada com sucesso!"
+        "body": f"Empresa '{requests_params}' cadastrada com sucesso!"
     }
     
     return response
@@ -100,7 +100,7 @@ def update_company():
     
     response = {
         "statusCode": 200,
-        "body": f"Dados da empresa '{requests_params.name}' atualizados com sucesso!"
+        "body": f"Dados da empresa '{requests_params}' atualizados com sucesso!"
     }
     
     return response
@@ -112,7 +112,7 @@ def delete_company():
     
     response = {
         "statusCode": 200,
-        "body": f"Empresa '{requests_params.name}' deletada com sucesso!"
+        "body": f"Empresa '{requests_params}' deletada com sucesso!"
     }
     
     return response
